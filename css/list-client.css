@@ -26,25 +26,28 @@
 
 #list-client-container > p {
   color: #7c8595;
-  /* font-family: Open Sans; */
+  font-family: "Open Sans";
   font-size: 18px;
   line-height: 28px;
-  margin: 0px 0px 15px;
   text-align: center;
-}
-.client-card {
-  text-align: center;
-  border: 1px solid #27b36a;
-  border-radius: 7px;
-  padding: 0px 25px 25px;
 }
 
-.client-card img {
+.client-card {
+  text-align: center;
+  border: 1px solid #e5efff;
+  border-radius: 7px;
+  padding: 0px 25px 25px;
+  background-color: #fefefe;
+  width: 20%;
+}
+
+#client-card-container .client-card img {
   position: relative;
   display: inline-block;
   max-width: 110px;
   margin-top: -55px;
-  border-color: 1px solid #27b36a;
+  transition: transform 0.5s linear;
+  border: 1px solid #e5efff;
   border-radius: 50%;
   padding: 5px;
   background-color: white;
@@ -53,8 +56,8 @@
   color: #7c8595;
   font-size: 17px;
   line-height: 28px;
-  margin: 20px 0;
   font-style: italic;
+  font-family: "Open Sans";
 }
 
 .client-card > h6 {
@@ -62,7 +65,7 @@
   font-size: 15px;
   font-weight: 500;
   line-height: 24px;
-  margin: 0 0 5px;
+  font-family: "Raleway";
 }
 .client-card .rating-star {
   text-align: center;
