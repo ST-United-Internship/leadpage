@@ -17,40 +17,42 @@
   font-weight: 500;
 
   font-family: Roboto;
+  margin: 0 0 10px;
+  font-size: 36px;
+  font-weight: 500;
+
+  /* font-family: Roboto; */
 }
 
 #list-client-container > p {
   color: #7c8595;
-  font-family: "Open Sans";
+  /* font-family: Open Sans; */
   font-size: 18px;
   line-height: 28px;
+  margin: 0px 0px 15px;
   text-align: center;
 }
-
 .client-card {
   text-align: center;
-  border: 1px solid #e5efff;
+  border: 1px solid #27b36a;
   border-radius: 7px;
   padding: 0px 25px 25px;
-  background-color: #fefefe;
-  width: 20%;
 }
 
-#client-card-container .client-card img {
+.client-card img {
   position: relative;
   display: inline-block;
   max-width: 110px;
   margin-top: -55px;
-  transition: transform 0.5s linear;
-  border: 1px solid #e5efff;
+  border-color: 1px solid #27b36a;
   border-radius: 50%;
 }
 .client-card > p {
   color: #7c8595;
   font-size: 17px;
   line-height: 28px;
+  margin: 20px 0;
   font-style: italic;
-  font-family: "Open Sans";
 }
 
 .client-card > h6 {
@@ -58,7 +60,7 @@
   font-size: 15px;
   font-weight: 500;
   line-height: 24px;
-  font-family: "Raleway";
+  margin: 0 0 5px;
 }
 .client-card .rating-star {
   text-align: center;
