@@ -1,0 +1,90 @@
+.hieutext {
+    /* gap: 20px;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.text-discover {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    margin-top: 0;
+    color: black;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-tile {
+    font-size: 20px;
+}
+
+.box {
+    position: relative;
+    width: 24%;
+    margin-top: 10px;
+}
+
+.anh {
+    border-radius: 4%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: black;
+    border-radius: 2%;
+}
+
+.box:hover .overlay {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .box {
+        width: 45%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 550px) {
+    .hieutext {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .box {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 163px) {
+    .text-discover h1, p {
+        font-size: 16px;
+    }
+    .box {
+        width: 95%;
+        margin-top: 20px;
+    }
+}
