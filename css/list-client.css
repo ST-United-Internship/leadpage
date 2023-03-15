@@ -76,7 +76,7 @@
   margin-top: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -85,13 +85,14 @@
   transition: transform 0.5s linear;
 }
 
-.client-card:hover {
+/* #client-card-container > div:hover, */
+/* .client-card:hover img:hover {
   border: 1px solid #27b36a;
   transform: scale(1.05, 1.05);
-}
+} */
 
-.client-card:hover > .card-img {
-  border: 1px solid #27b36a !important;
+.client-card:hover {
+  border: 1px solid #27b36a;
   transform: scale(1.05, 1.05);
 }
 
