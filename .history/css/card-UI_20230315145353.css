@@ -1,0 +1,34 @@
+section{
+    background: #f7fafa;
+    /* padding: 90px 0 100px 0; */
+}
+
+.about{
+    background-color: #f7fafa;
+}
+
+.columm{
+    /* display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; */
+}
+ .title-text{
+    text-align: center;
+}
+
+.about .columm .title-text h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about .columm .title-text p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ca

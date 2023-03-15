@@ -1,0 +1,16 @@
+.about{
+    background-color: #f7fafa;
+}
+
+.about .title-text{
+    text-align: center;
+    /* padding: 90px; */
+}
+
+.about .title-text h2{
+    font-size: 36px;
+}
+
+.about .title-text p{
+    font-size: 18px;
+}

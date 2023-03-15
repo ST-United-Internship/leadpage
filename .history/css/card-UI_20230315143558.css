@@ -1,0 +1,19 @@
+section{
+    background: #f7fafa;
+    padding: 90px 0 100px 0;
+}
+
+.card{
+    background-color: #f7fafa;
+}
+
+.card .columm{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+}
+.card .columm .title-text{
+    text-align: center;
+}
