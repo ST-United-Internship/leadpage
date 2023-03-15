@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.receipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.text-discover {
+  font-family: "Roboto";
+  line-height: 1.2;
+  margin-top: 0;
+  color: black;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-tile {
+  font-size: 20px;
+}
+
+.discover-item {
+  position: relative;
+  width: 24%;
+  margin-top: 10px;
+}
+
+.anh {
+  border-radius: 4%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+  border-radius: 2%;
+}
+
+.discover-item:hover .overlay {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .discover-item {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .receipes-container {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .discover-item {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 163px) {
+  .text-discover h1,
+  p {
+    font-size: 16px;
+  }
+  .discover-item {
+    width: 95%;
+    margin-top: 20px;
+  }
+}
