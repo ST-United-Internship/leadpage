@@ -7,8 +7,8 @@
     <title>Learn CSS</title>
 
     <!-- Common css -->
+    <link rel="stylesheet" href="css/meal.css" />
     <link rel="stylesheet" href="css/common.css" />
-
     <link rel="stylesheet" href="css/list-client.css" />
     <link rel="stylesheet" href="css/accordion.css" />
   </head>
@@ -19,16 +19,74 @@
     <!-- End Linh header  -->
 
     <!-- Nhi meal plan  -->
-    <div class="container"></div>
+
+    <!--text contrainer-->
+    <div class="container" id="food-container">
+      <h2>Meal Plans Made For You</h2>
+      <p>Curabitur quam etsum lacus net netsum nulat netus netsum.</p>
+
+      <!--Menu list-->
+      <section id="menu-list-wrapper">
+        <!--Image 1-->
+        <div class="cardImage">
+          <div class="meal-img">
+            <img src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/menu3.jpg" />
+            <div class="background"></div>
+          </div>
+
+          <!--box 1-->
+          <div class="meal-box">
+            <h3>
+              <a>Plant Based</a>
+            </h3>
+            <p>Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum.</p>
+            <a>Explor Gluten Free Menu</a>
+          </div>
+        </div>
+
+        <!--Image 2-->
+        <div class="cardImage">
+          <div class="meal-img">
+            <img src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/menu6.jpg" />
+            <div class="background"></div>
+          </div>
+
+          <!--box 2-->
+          <div class="meal-box">
+            <h3>
+              <a>Low Carb</a>
+            </h3>
+            <p>Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum.</p>
+            <a>Explor Gluten Free Menu</a>
+          </div>
+        </div>
+
+        <!--Image 3-->
+        <div class="cardImage">
+          <div class="meal-img">
+            <img src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/menu5.jpg" />
+            <div class="background"></div>
+          </div>
+
+          <!--box 3-->
+          <div class="meal-box">
+            <h3>
+              <a>Gluten Free</a>
+            </h3>
+            <p>Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum.</p>
+            <a>Explor Gluten Free Menu</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
     <!-- End Nhi meal plan -->
 
     <!-- What's Inside A Meal Kit Box Thien dep trai -->
     <div class="container accordion-section">
       <input name="section" id="section-0" type="radio" />
       <label for="section-0">
-        <img
-          src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/box-kit1.jpg"
-        />
+        <img src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/box-kit1.jpg" />
       </label>
       <div class="accordion">
         <h1>What's Inside A Meal Kit Box</h1>
@@ -36,34 +94,29 @@
         <input name="section" id="section-1" type="radio" checked />
         <label for="section-1">Only High-quality Ingredients</label>
         <p>
-          Nemo enim ipsam voluptatem quia voluptas situm ets aspernatis netsum
-          loris fugit, sed quia magni dolores eos quis ratione sequi et
-          vesciunt, neque et quis autem velis reprehenderit etsim quis velit
-          netsum valoriset.
+          Nemo enim ipsam voluptatem quia voluptas situm ets aspernatis netsum loris fugit, sed quia magni dolores eos quis ratione sequi et vesciunt, neque et
+          quis autem velis reprehenderit etsim quis velit netsum valoriset.
         </p>
 
         <input name="section" id="section-2" type="radio" />
         <label for="section-2">Fresh Ingredients From Trusted Sources</label>
         <p>
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum loris
-          fugit, sed quia magni dolores eos qui ratione sequi nesciunt, neque et
-          quis autem velis reprehenderit ets quis velit.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum loris fugit, sed quia magni dolores eos qui ratione sequi nesciunt, neque et quis autem
+          velis reprehenderit ets quis velit.
         </p>
 
         <input name="section" id="section-3" type="radio" />
         <label for="section-3">Meticulously Selected Vegetables</label>
         <p>
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum loris
-          fugit, sed quia magni dolores eos qui ratione sequi nesciunt, neque et
-          quis autem velis reprehenderit ets quis velit.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum loris fugit, sed quia magni dolores eos qui ratione sequi nesciunt, neque et quis autem
+          velis reprehenderit ets quis velit.
         </p>
 
         <input name="section" id="section-4" type="radio" />
         <label for="section-4">Premium Recyclable Packaging</label>
         <p>
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum loris
-          fugit, sed quia magni dolores eos qui ratione sequi nesciunt, neque et
-          quis autem velis reprehenderit ets quis velit.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum loris fugit, sed quia magni dolores eos qui ratione sequi nesciunt, neque et quis autem
+          velis reprehenderit ets quis velit.
         </p>
       </div>
     </div>
@@ -81,15 +134,8 @@
       <section id="client-card-container">
         <!-- Card 1 -->
         <div class="card client-card">
-          <img
-            class="card-img"
-            src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials3.jpg"
-            alt="user"
-          />
-          <p>
-            The attention of a traveller, should be particularly turned to the
-            various works of nature.
-          </p>
+          <img class="card-img" src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials3.jpg" alt="user" />
+          <p>The attention of a traveller, should be particularly turned to the various works of nature.</p>
           <h6>Emily Richards - Copywriter</h6>
 
           <!-- Rating star -->
@@ -105,15 +151,8 @@
 
         <!-- card 2 -->
         <div class="card client-card">
-          <img
-            class="card-img"
-            src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials2.jpg"
-            alt="user"
-          />
-          <p>
-            The attention of a traveller, should be particularly turned to the
-            various works of nature.
-          </p>
+          <img class="card-img" src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials2.jpg" alt="user" />
+          <p>The attention of a traveller, should be particularly turned to the various works of nature.</p>
           <h6>John Doe - General Manager</h6>
 
           <!-- Rating star -->
@@ -129,15 +168,8 @@
 
         <!-- card 3 -->
         <div class="card client-card">
-          <img
-            class="card-img"
-            src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials1.jpg"
-            alt="user"
-          />
-          <p>
-            The attention of a traveller, should be particularly turned to the
-            various works of nature.
-          </p>
+          <img class="card-img" src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials1.jpg" alt="user" />
+          <p>The attention of a traveller, should be particularly turned to the various works of nature.</p>
           <h6>Jane Smith - Web Designer</h6>
           <!-- Rating star -->
           <div class="rating-star">
@@ -154,9 +186,6 @@
     <!-- End list client -->
 
     <!-- font-awesome -->
-    <script
-      src="https://kit.fontawesome.com/81aaccc8c8.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/81aaccc8c8.js" crossorigin="anonymous"></script>
   </body>
 </html>
