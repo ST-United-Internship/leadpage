@@ -47,8 +47,10 @@
   max-width: 110px;
   margin-top: -55px;
   transition: transform 0.5s linear;
-  border: 1px solid #e5efff;
+  border: 1px solid #dae6fa;
   border-radius: 50%;
+  padding: 5px;
+  background-color: white;
 }
 .client-card > p {
   color: #7c8595;
@@ -83,9 +85,19 @@
   transition: transform 0.5s linear;
 }
 
-#client-card-container > div:hover,
-#client-card-container .client-card img:hover {
+/* #client-card-container > div:hover, */
+/* .client-card:hover img:hover {
   border: 1px solid #27b36a;
+  transform: scale(1.05, 1.05);
+} */
+
+.client-card:hover {
+  border: 1px solid #27b36a;
+  transform: scale(1.05, 1.05);
+}
+
+.client-card:hover > .card-img {
+  border: 1px solid #27b36a !important;
   transform: scale(1.05, 1.05);
 }
 
