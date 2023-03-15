@@ -20,7 +20,6 @@
   margin: 0 0 10px;
   font-size: 36px;
   font-weight: 500;
-
   font-family: Roboto;
 }
 
@@ -76,7 +75,7 @@
   margin-top: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -84,12 +83,6 @@
 #client-card-container > div {
   transition: transform 0.5s linear;
 }
-
-/* #client-card-container > div:hover, */
-/* .client-card:hover img:hover {
-  border: 1px solid #27b36a;
-  transform: scale(1.05, 1.05);
-} */
 
 .client-card:hover {
   border: 1px solid #27b36a;
@@ -170,9 +163,6 @@
     flex-direction: column;
     align-content: center;
   }
-
-  /* #client-card-container .client-card:nth-child(1) {
-  } */
 
   #client-card-container .client-card:nth-child(2) {
     margin-top: 100px;
