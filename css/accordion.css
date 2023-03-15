@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("assets/fonts/Raleway/static/Raleway-Medium.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.accordion-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 90px 0 100px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .accordion-section {
+    padding: 0 !important;
+  }
+  .accordion {
+    min-width: 240px !important;
+  }
+  .accordion > label {
+    font-size: 15px !important;
+  }
+  .accordion > p {
+    font-size: 12px !important;
+  }
+}
+
+.accordion-section > input {
+  display: none;
+}
+
+.accordion-section > label {
+  flex: 1;
+  width: 100%;
+  min-width: 48%;
+}
+
+.accordion-section > label > img {
+  width: 100%;
+  box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.15);
+  vertical-align: middle;
+  border-style: none;
+  border-radius: 8px;
+  max-width: 510px;
+}
+
+.accordion {
+  min-width: 300px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.accordion > h1 {
+  color: #071e55;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+}
+
+.accordion > label {
+  padding: 6px 0 9px 0;
+  border-bottom: 1px solid #f4f5f6;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #071e55;
+  line-height: 1.5;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.accordion > p {
+  color: #7c8595;
+  font-size: 17px;
+  padding: 10px 0;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+.accordion > input[type="radio"] {
+  display: none;
+}
+
+.accordion > input[type="radio"]:not(:checked) + label + p {
+  display: none;
+  padding: 0;
+}
+
+.accordion > input[type="radio"]:checked + label {
+  border-bottom: 2px solid #27b36a;
+}
+
+@media only screen and (max-width: 163px) {
+  .accordion {
+    min-width: 100px !important;
+  }
+  .accordion > label {
+    white-space: pre-wrap !important;
+    font-size: 12px !important;
+  }
+  .accordion > p {
+    font-size: 9px !important;
+  }
+}
