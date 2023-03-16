@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("assets/fonts/Raleway/static/Raleway-Medium.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#list-client-container h2:nth-child(1) {
+  color: #071e55;
+  text-align: center;
+  line-height: 43.2px;
+  font-size: 36px;
+  font-weight: 500;
+
+  font-family: Roboto;
+  margin: 0 0 10px;
+  font-size: 36px;
+  font-weight: 500;
+
+  font-family: Roboto;
+}
+
+#list-client-container > p {
+  color: #7c8595;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.client-card {
+  text-align: center;
+  border: 1px solid #e5efff;
+  border-radius: 7px;
+  padding: 0px 25px 25px;
+  background-color: #fefefe;
+  width: 20%;
+}
+
+#client-card-container .client-card img {
+  position: relative;
+  display: inline-block;
+  max-width: 110px;
+  margin-top: -55px;
+  transition: transform 0.5s linear;
+  border: 1px solid #dae6fa;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: white;
+}
+.client-card > p {
+  color: #7c8595;
+  font-size: 17px;
+  line-height: 28px;
+  font-style: italic;
+  font-family: "Open Sans";
+}
+
+.client-card > h6 {
+  color: #27b36a;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Raleway";
+}
+.client-card .rating-star {
+  text-align: center;
+  line-height: 16px;
+}
+
+#client-card-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* Hover */
+#client-card-container > div {
+  transition: transform 0.5s linear;
+}
+
+/* #client-card-container > div:hover, */
+/* .client-card:hover img:hover {
+  border: 1px solid #27b36a;
+  transform: scale(1.05, 1.05);
+} */
+
+.client-card:hover {
+  /* border: 1px solid #27b36a;
+  transform: scale(1.05, 1.05); */
+}
+
+.client-card:hover > .card-img {
+  border: 1px solid #27b36a !important;
+  transform: scale(1.05, 1.05);
+}
+
+@media only screen and (max-width: 1280px) {
+  /* #client-card-container {
+    flex-direction: column;
+    align-content: center;
+  } */
+  #client-card-container .client-card:nth-child(1) {
+    width: 25%;
+  }
+
+  #client-card-container .client-card:nth-child(2) {
+    width: 25%;
+  }
+
+  #client-card-container .client-card:nth-child(3) {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  #client-card-container {
+    flex-direction: column;
+    align-content: center;
+  }
+  #client-card-container .client-card:nth-child(1) {
+    width: 90%;
+  }
+
+  #client-card-container .client-card:nth-child(2) {
+    width: 90%;
+    margin-top: 80px;
+  }
+
+  #client-card-container .client-card:nth-child(3) {
+    width: 90%;
+    margin-top: 80px;
+  }
+}
+
+/* Ipad mini */
+@media only screen and (max-width: 767px) {
+  #client-card-container {
+    flex-direction: column;
+    align-content: center;
+  }
+  #client-card-container .client-card:nth-child(1) {
+    width: 90%;
+  }
+
+  #client-card-container .client-card:nth-child(2) {
+    width: 90%;
+    margin-top: 80px;
+  }
+
+  #client-card-container .client-card:nth-child(3) {
+    width: 90%;
+    margin-top: 80px;
+  }
+}
+
+/* Apple watch */
+@media only screen and (max-width: 163px) {
+  #list-client-container h2:nth-child(1) {
+    color: #071e55;
+    text-align: center;
+    line-height: 43.2px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  #client-card-container {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  /* #client-card-container .client-card:nth-child(1) {
+  } */
+
+  #client-card-container .client-card:nth-child(2) {
+    margin-top: 100px;
+  }
+
+  #client-card-container .client-card:nth-child(3) {
+    margin-top: 100px;
+  }
+
+  .client-card > p {
+    font-size: 10px;
+  }
+  .rating-star {
+    font-size: 10px;
+  }
+}

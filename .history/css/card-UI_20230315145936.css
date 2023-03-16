@@ -1,0 +1,53 @@
+section{
+    background: #f7fafa;
+    /* padding: 90px 0 100px 0; */
+}
+
+.about{
+    background-color: #f7fafa;
+}
+
+.row-title{
+    text-align: center;
+}
+ .title-text{
+    text-align: center;
+}
+
+.about .columm .title-text h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about .columm .title-text p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-UI{
+    position: relative;
+}
+
+.card-UI .about .columm{
+    display: flex;
+}
+
+.title-card{
+    position: relative;
+    margin: 45px 5px 5px 5px;
+    padding: 40px 15px 32px 15px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #e5efff;
+    background-color: #fefefe;
+    border-radius: 8px 8px;
+    transition: all 1s;
+}
+
+.columm::after, ::before{
+    box-sizing: border-box;
+}

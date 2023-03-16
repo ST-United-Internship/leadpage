@@ -1,0 +1,114 @@
+body{
+    background: #f7fafa;
+}
+
+section{
+    background: #f7fafa;
+    padding: 90px 0 100px 0;
+}
+
+.about{
+    background-color: #f7fafa;
+}
+
+.row-title{
+    text-align: center;
+}
+ .title-text{
+    text-align: center;
+}
+
+.about .row-title .title-text h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.about .row-title .title-text p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-UI{
+    position: relative;
+}
+
+.card-UI .about .columm{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.title-card{
+    position: relative;
+    margin: 45px 20px 5px 20px;
+    padding: 40px 15px 32px 15px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #e5efff;
+    background-color: #fefefe;
+    border-radius: 8px 8px;
+    transition: all 1s;
+    width: 20%;
+    height: 50%;
+    
+}
+
+.title-card:hover{
+    border: 1px solid #27b36a;
+    transform: scale(1.05, 1.05);
+}
+
+.columm::after, ::before{
+    box-sizing: border-box;
+}
+
+.card-UI .about .columm .title-card i{
+    margin-bottom: 25px;
+    font-size: 60px;
+    color: #27b36a;
+}
+
+.card-UI .about .columm .title-card h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #292929;
+    margin-bottom: 15px;
+}
+
+.card-UI .about .columm .title-card p{
+    padding: 0 10px;
+    margin-bottom: 15px
+}
+
+
+@media only screen and (max-width:800px) {
+
+    .about{
+        width: auto;
+        align-items: center;
+        max-width: 100%;
+    }
+    .columm{
+        /* width: auto; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        padding: 30px;
+    }
+    .title-card{
+        width: auto;
+    }
+
+    .row-title{
+        text-align: center;
+    }
+}
+
+

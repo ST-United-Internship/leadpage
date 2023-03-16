@@ -1,0 +1,28 @@
+section{
+    background: #f7fafa;
+    /* padding: 90px 0 100px 0; */
+}
+
+.about{
+    background-color: #f7fafa;
+}
+
+.about .columm{
+    /* display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; */
+}
+.about .columm .title-text{
+    text-align: center;
+}
+
+.about .columm .title-text h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about .columm .title-text p{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
