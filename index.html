@@ -9,6 +9,7 @@
     <!-- Common css -->
     <link rel="stylesheet" href="css/meal.css" />
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/discover.css" />
     <link rel="stylesheet" href="css/dinnder-ui.css" />
     <link rel="stylesheet" href="css/list-client.css" />
@@ -16,6 +17,40 @@
   </head>
 
   <body>
+    <!-- Linh Header (Khong can container) -->
+    <div class="header">
+      <div class="navbar">
+        <div class="navbar__icon">
+          <span>LeadPage</span>
+          <label for="check">
+            <i class="fas fa-bars"></i>
+          </label>
+        </div>
+        <input type="checkbox" id="check" name="sidebar" />
+        <ul class="navbar_contact">
+          <li class="active">Home</li>
+          <li class="active">Our menus</li>
+          <li class="active">How It Works</li>
+          <li class="active">Gallery</li>
+          <button>Get Started</button>
+        </ul>
+      </div>
+      <section class="home-section">
+        <div class="home-section-overlay"></div>
+        <div class="section-container">
+          <div class="content">
+            <h1>The World's Best Meal Kit</h1>
+            <p>Delivered to your door, ready to eat in minutes.</p>
+            <a href="">Start Cooking Now</a>
+          </div>
+          <br />
+          <a href="#" class="arrow-down">
+            <i class="fa-solid fa-chevron-down"></i>
+          </a>
+        </div>
+      </section>
+    </div>
+    <!-- End Linh header  -->
     <!-- Nhi meal plan  -->
 
     <!--text contrainer-->
@@ -221,7 +256,7 @@
             <i style="color: #fdcc28" class="fa-solid fa-star"></i>
           </div>
         </div>
-        <!-- end card 1 -->
+        <!-- end card 2 -->
 
         <!-- card 2 -->
         <div class="card client-card">
