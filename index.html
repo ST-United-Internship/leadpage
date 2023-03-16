@@ -1,115 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Learn CSS</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Learn CSS</title>
 
-    <!-- Common css -->
-    <link rel="stylesheet" href="css/common.css" />
+		<!-- Common css -->
+		<link rel="stylesheet" href="css/common.css" />
+		<!-- List client css -->
+		<link rel="stylesheet" href="css/list-client.css" />
+		<!-- Header css -->
+		<link rel="stylesheet" href="css/header.css" />
+	</head>
+	<body>
+		<!-- Linh Header (Khong can container) -->
+		<div class="header">
+			<div class="navbar">
+				<div class="navbar__icon">
+					<span>LeadPage</span>
+					<label for="check">
+						<i class="fas fa-bars"></i>
+					</label>
+				</div>
+				<input type="checkbox" id="check" name="sidebar" />
+				<ul class="navbar_contact">
+					<li class="active">Home</li>
+					<li class="active">Our menus</li>
+					<li class="active">How It Works</li>
+					<li class="active">Gallery</li>
+					<button>Get Started</button>
+				</ul>
+			</div>
+			<section class="home-section">
+				<div class="home-section-overlay"></div>
+				<div class="section-container">
+					<div class="content">
+						<h1>The World's Best Meal Kit</h1>
+						<p>Delivered to your door, ready to eat in minutes.</p>
+						<a href="">Start Cooking Now</a>
+					</div>
+					<br />
+					<a href="#" class="arrow-down">
+						<i class="fa-solid fa-chevron-down"></i>
+					</a>
+				</div>
+			</section>
+		</div>
+		<!-- End Linh header  -->
 
-    <!-- List client css -->
-    <link rel="stylesheet" href="css/list-client.css" />
-  </head>
-  <body>
-    <!-- Linh Header (Khong can container) -->
+		<!-- Nhi meal plan  -->
+		<div class="container"></div>
+		<!-- End Nhi meal plan -->
 
-    <!-- End Linh header  -->
+		<!-- What's Inside A Meal Kit Box Thien dep trai -->
+		<div class="container"></div>
+		<!-- End What's Inside A Meal Kit Box Thien dep trai -->
+		<!-- Nhi Footer -->
+		<div class="container"></div>
+		<!-- End Nhi Footer -->
 
-    <!-- Nhi meal plan  -->
-    <div class="container"></div>
-    <!-- End Nhi meal plan -->
+		<!-- List client -->
+		<div class="container" id="list-client-container">
+			<h2>Clients Testimonials</h2>
+			<p>What Our Clients Are Saying.</p>
 
-    <!-- What's Inside A Meal Kit Box Thien dep trai -->
-    <div class="container"></div>
-    <!-- End What's Inside A Meal Kit Box Thien dep trai -->
-    <!-- Nhi Footer -->
-    <div class="container"></div>
-    <!-- End Nhi Footer -->
+			<!-- user card list -->
+			<section id="client-card-container">
+				<!-- Card 1 -->
+				<div class="card client-card">
+					<img
+						src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials3.jpg"
+						alt="user"
+					/>
+					<p>
+						The attention of a traveller, should be particularly turned to the
+						various works of nature.
+					</p>
+					<h6>Emily Richards - Copywriter</h6>
 
-    <!-- List client -->
-    <div class="container" id="list-client-container">
-      <h2>Clients Testimonials</h2>
-      <p>What Our Clients Are Saying.</p>
+					<!-- Rating star -->
+					<div class="rating-star">
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+					</div>
+				</div>
+				<!-- end card 1 -->
 
-      <!-- user card list -->
-      <section id="client-card-container">
-        <!-- Card 1 -->
-        <div class="card client-card">
-          <img
-            src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials3.jpg"
-            alt="user"
-          />
-          <p>
-            The attention of a traveller, should be particularly turned to the
-            various works of nature.
-          </p>
-          <h6>Emily Richards - Copywriter</h6>
+				<!-- card 2 -->
+				<div class="card client-card">
+					<img
+						src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials2.jpg"
+						alt="user"
+					/>
+					<p>
+						The attention of a traveller, should be particularly turned to the
+						various works of nature.
+					</p>
+					<h6>John Doe - General Manager</h6>
 
-          <!-- Rating star -->
-          <div class="rating-star">
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-          </div>
-        </div>
-        <!-- end card 1 -->
+					<!-- Rating star -->
+					<div class="rating-star">
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+					</div>
+				</div>
+				<!-- end card 2 -->
 
-        <!-- card 2 -->
-        <div class="card client-card">
-          <img
-            src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials2.jpg"
-            alt="user"
-          />
-          <p>
-            The attention of a traveller, should be particularly turned to the
-            various works of nature.
-          </p>
-          <h6>John Doe - General Manager</h6>
+				<!-- card 3 -->
+				<div class="card client-card">
+					<img
+						src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials1.jpg"
+						alt="user"
+					/>
+					<p>
+						The attention of a traveller, should be particularly turned to the
+						various works of nature.
+					</p>
+					<h6>Jane Smith - Web Designer</h6>
+					<!-- Rating star -->
+					<div class="rating-star">
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+						<i style="color: #fdcc28" class="fa-solid fa-star"></i>
+					</div>
+				</div>
+				<!--end card 3 -->
+			</section>
+		</div>
+		<!-- End list client -->
 
-          <!-- Rating star -->
-          <div class="rating-star">
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-          </div>
-        </div>
-        <!-- end card 2 -->
-
-        <!-- card 3 -->
-        <div class="card client-card">
-          <img
-            src="https://demo.epic-webdesign.com/tf-leadpage/v2/images/testimonials1.jpg"
-            alt="user"
-          />
-          <p>
-            The attention of a traveller, should be particularly turned to the
-            various works of nature.
-          </p>
-          <h6>Jane Smith - Web Designer</h6>
-          <!-- Rating star -->
-          <div class="rating-star">
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-            <i style="color: #fdcc28" class="fa-solid fa-star"></i>
-          </div>
-        </div>
-        <!--end card 3 -->
-      </section>
-    </div>
-    <!-- End list client -->
-
-    <!-- font-awesome -->
-    <script
-      src="https://kit.fontawesome.com/81aaccc8c8.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+		<!-- font-awesome -->
+		<script
+			src="https://kit.fontawesome.com/81aaccc8c8.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
